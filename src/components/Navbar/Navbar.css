@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title{
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+.navbar-links{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-links li{
+    list-style: none;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
