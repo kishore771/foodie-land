@@ -1,14 +1,22 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    padding: 30px;
 }
 
 .nav-title{
     color: black;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: 'lobster', cursive;
+    font-size: 28px;
+    margin-left: 25px;
 }
 
-
+.social-icons{
+    display: flex;
+    gap: 15px;
+    margin-right: 50px;
+    align-items: center;
+}
 .navbar-links{
     display: flex;
     gap: 20px;
