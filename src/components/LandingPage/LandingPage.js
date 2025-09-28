@@ -67,12 +67,12 @@ const LandingPage = () => {
               alt="chicken-img"
               className="chicken-img"
             />
-            <p>Hot Recipes</p>
+            <p >Hot Recipes</p>
           </div>
 
           <div className="hero-details">
-            <h1>Spicy Delicious chicken wings</h1>
-            <p>
+            <h1 className="hero-title">Spicy Delicious chicken wings</h1>
+            <p className="hero-description">
               Lorem ipsum dolor sit amet, consectetuipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad
               minim
@@ -160,7 +160,7 @@ const LandingPage = () => {
           <h2 className="cta-heading">
             Everyone can be a chef in their own kitchen
           </h2>
-          <p>
+          <p className="cta-description">
             Lorem ipsum dolor sit amet, consectetuipiscing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqut enim ad minim
           </p>
@@ -201,7 +201,7 @@ const LandingPage = () => {
           <h2 className="try-heading">
             Try these Delicious Recipe to make your day
           </h2>
-          <p>
+          <p className="try-description">
             Lorem ipsum dolor sit amet, consectetuipiscing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqut enim ad minim
           </p>
